@@ -1,0 +1,33 @@
+{
+  "name": "frx-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-xml": "^0.3.1",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "nutritionix": "^0.6.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "square-connect-api": "0.0.5",
+    "twilio": "^2.11.1",
+    "uuid": "^2.0.2"
+  },
+  "engines": {
+    "node": "6.2.1"
+  }
+}
